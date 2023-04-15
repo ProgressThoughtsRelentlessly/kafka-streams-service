@@ -1,0 +1,38 @@
+
+-- Topic createion:
+
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic users_activities --partitions 3 -replication-factor 1
+
+
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic view_post --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic view_profile --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic upvoted_post --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic search_post --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic choosen_domain --partitions 3 -replication-factor 1
+
+
+
+
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic most-viewed-post-count --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic most-viewed-profile-count --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic most-upvoted-post-count --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic most-searched-keyword-count --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic most-popular-domain-count --partitions 3 -replication-factor 1
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic peak-user-activity-range --partitions 3 -replication-factor 1
+
+
+kafka-topics.sh --zookeeper 127.0.0.1:2181 --create --topic default-topic-on-exception --partitions 3 -replication-factor 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
