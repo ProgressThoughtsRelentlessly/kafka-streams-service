@@ -1,8 +1,0 @@
-server:
-  port: 8003
-  shutdown: graceful
-  
-  
-spring:
-  application:
-    name: kafka-streams-service-1
