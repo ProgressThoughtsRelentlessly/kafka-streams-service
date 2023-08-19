@@ -6,3 +6,8 @@ server:
 spring:
   application:
     name: kafka-streams-service-1
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
